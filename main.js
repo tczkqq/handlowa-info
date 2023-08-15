@@ -12,6 +12,7 @@ const shoppingSundays = [
     new Date(2023, 7, 29).toDateString(),
     new Date(2023, 11, 12).toDateString(),
     new Date(2023, 11, 19).toDateString(),
+
 ]
 currentDateContainer.textContent = `${currentDate.getDate()}.${leadingZero(currentDate.getMonth()+1)}.${currentDate.getFullYear()}r.`
 
